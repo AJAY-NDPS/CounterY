@@ -1,0 +1,21 @@
+{
+    "name": "ajaygawade/counter-y",
+    "description": "Counter Testing composer package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ajaygawade",
+            "email": "ajay.gawade@atomtech.in"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+             "CounterY": "src/"
+         }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
